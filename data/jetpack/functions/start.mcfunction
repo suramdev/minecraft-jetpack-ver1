@@ -1,0 +1,1 @@
+scoreboard objectives add jump minecraft.custom:minecraft.jump

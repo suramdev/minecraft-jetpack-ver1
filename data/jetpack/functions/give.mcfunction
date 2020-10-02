@@ -1,0 +1,1 @@
+give @p minecraft:elytra{display:{Name:'{"text":"제트팩","color":"gold","bold":true}'},Unbreakable:1b} 1

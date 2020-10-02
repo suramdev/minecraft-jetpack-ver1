@@ -1,0 +1,4 @@
+execute as @a[nbt={OnGround:1b}] at @s run scoreboard players set @s jump 0
+execute as @a[scores={jump=1},nbt={FallFlying:1b},nbt={Inventory:[{id:"minecraft:elytra",Slot:102b,tag:{display:{Name:'{"text":"제트팩","color":"gold","bold":true}'},Unbreakable:1b}}],FallFlying:1b}] at @s run tp ^ ^0.4 ^0.4
+execute as @a[scores={jump=1},nbt={FallFlying:1b},nbt={Inventory:[{id:"minecraft:elytra",Slot:102b,tag:{display:{Name:'{"text":"제트팩","color":"gold","bold":true}'},Unbreakable:1b}}],FallFlying:1b}] at @s run effect give @s minecraft:resistance 1 255 true
+execute as @a[nbt={OnGround:1b}] at @s run effect clear @s minecraft:resistance
